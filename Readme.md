@@ -1,3 +1,9 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [Form1.cs](./CS/Form1.cs) (VB: [Form1.vb](./VB/Form1.vb))
+* [NewFieldsForm.cs](./CS/NewFieldsForm.cs) (VB: [NewFieldsForm.vb](./VB/NewFieldsForm.vb))
+<!-- default file list end -->
 # Utility for creating a Mail Merge template
 
 
