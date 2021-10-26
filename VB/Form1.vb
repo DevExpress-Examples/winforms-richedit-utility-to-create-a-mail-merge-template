@@ -32,11 +32,11 @@ Namespace RichEditMailMergeTemplateCreator
 		End Sub
 
 		Private Sub barButtonItem2_ItemClick(ByVal sender As Object, ByVal e As DevExpress.XtraBars.ItemClickEventArgs) Handles barButtonItem2.ItemClick
-			richEditControl1.Document.Fields.Add(richEditControl1.Document.CaretPosition, " DOCVARIABLE dvField ")
+		richEditControl1.Document.Fields.Create(richEditControl1.Document.CaretPosition, " DOCVARIABLE dvField ")
 		End Sub
 
 		Private Sub barButtonItem3_ItemClick(ByVal sender As Object, ByVal e As DevExpress.XtraBars.ItemClickEventArgs) Handles barButtonItem3.ItemClick
-			richEditControl1.Document.Fields.Add(richEditControl1.Document.CaretPosition, " INCLUDEPICTURE ""image.jpg"" ")
+		richEditControl1.Document.Fields.Create(richEditControl1.Document.CaretPosition, " INCLUDEPICTURE ""image.jpg"" ")
 		End Sub
 
 		Private Sub barButtonItem4_ItemClick(ByVal sender As Object, ByVal e As DevExpress.XtraBars.ItemClickEventArgs) Handles barButtonItem4.ItemClick
