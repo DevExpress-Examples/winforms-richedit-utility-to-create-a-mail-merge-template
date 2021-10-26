@@ -34,7 +34,7 @@ namespace RichEditMailMergeTemplateCreator {
         }
 
         private void barButtonItem3_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e) {
-            richEditControl1.Document.Fields.Creta(richEditControl1.Document.CaretPosition, " INCLUDEPICTURE \"image.jpg\" ");
+            richEditControl1.Document.Fields.Create(richEditControl1.Document.CaretPosition, " INCLUDEPICTURE \"image.jpg\" ");
         }
 
         private void barButtonItem4_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e) {
