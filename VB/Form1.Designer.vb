@@ -1607,21 +1607,21 @@ Namespace RichEditMailMergeTemplateCreator
 			Me.barButtonItem1.Caption = "New Merge Fields"
 			Me.barButtonItem1.Id = 371
 			Me.barButtonItem1.Name = "barButtonItem1"
-'			Me.barButtonItem1.ItemClick += New DevExpress.XtraBars.ItemClickEventHandler(Me.barButtonItem1_ItemClick);
+
 			' 
 			' barButtonItem2
 			' 
 			Me.barButtonItem2.Caption = "Insert DOCVARIABLE"
 			Me.barButtonItem2.Id = 372
 			Me.barButtonItem2.Name = "barButtonItem2"
-'			Me.barButtonItem2.ItemClick += New DevExpress.XtraBars.ItemClickEventHandler(Me.barButtonItem2_ItemClick);
+
 			' 
 			' barButtonItem3
 			' 
 			Me.barButtonItem3.Caption = "Insert INCLUDEPICTURE"
 			Me.barButtonItem3.Id = 373
 			Me.barButtonItem3.Name = "barButtonItem3"
-'			Me.barButtonItem3.ItemClick += New DevExpress.XtraBars.ItemClickEventHandler(Me.barButtonItem3_ItemClick);
+
 			' 
 			' headerFooterToolsRibbonPageCategory1
 			' 
@@ -2169,7 +2169,7 @@ Namespace RichEditMailMergeTemplateCreator
 			Me.barButtonItem4.Caption = "Insert field"
 			Me.barButtonItem4.Id = 374
 			Me.barButtonItem4.Name = "barButtonItem4"
-'			Me.barButtonItem4.ItemClick += New DevExpress.XtraBars.ItemClickEventHandler(Me.barButtonItem4_ItemClick);
+
 			' 
 			' Form1
 			' 
